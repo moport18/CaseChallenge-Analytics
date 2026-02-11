@@ -21,14 +21,6 @@ def format_number(n):
 
 
 def get_german_gender_text(gender, case="normal"):
-    """
-    Gibt die deutsche Übersetzung für Geschlechter zurück.
-    
-    Args:
-        gender: "MALE" oder "FEMALE"
-        case: "normal" für "männlich/weiblich", 
-              "primary" für "männliche/weibliche"
-    """
     if gender == "MALE":
         return "männlich" if case == "normal" else "männliche"
     else:
@@ -220,4 +212,5 @@ def audience_analysis(df, track_name, artist_name):
 
 
 if __name__ == "__main__":
+
     main()
