@@ -1,15 +1,3 @@
-"""
-Case Challenge - Analytics
-Autor: Moe Portmann
-Datum: Februar 2026
-Praktikumsbewerbung 
-
-Aufgaben:
-1.1 Datenaufbereitung und Join
-1.2 Track-Empfehlung mit Scoring
-1.3 Zielgruppenanalyse
-"""
-
 import pandas as pd
 from supabase import create_client
 from dotenv import load_dotenv
@@ -202,4 +190,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
