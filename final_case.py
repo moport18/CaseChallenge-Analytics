@@ -101,11 +101,11 @@ def recommend_track(df):
     for i in range(len(grouped)):
         row = grouped.iloc[i]
         if i == 0:
-            rank = "🥇"
+            rank = "1"
         elif i == 1:
-            rank = "🥈"
+            rank = "2"
         elif i == 2:
-            rank = "🥉"
+            rank = "3"
         else:
             rank = f"{i+1}."
         
@@ -202,3 +202,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
